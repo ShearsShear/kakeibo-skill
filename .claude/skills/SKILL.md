@@ -45,7 +45,6 @@ category,monthly_budget
 category,description,closing_day
 楽天カード,楽天カードでの支払い,12
 PayPay,PayPayでの支払い,末日
-高島屋カード,高島屋カードでの支払い,10
 ```
 
 **closing_day（締め日）の値:**
@@ -55,7 +54,7 @@ PayPay,PayPayでの支払い,末日
 ### overages.csv（超過理由の記録）
 ```csv
 date,category,budget,actual,overage_amount,reason,action_plan,cycle
-2024-02-11,楽天カード,300000,432410,132410,季節要因,支出を抑える,2024-01
+2025-02-11,楽天カード,10000,15000,5000,季節要因,支出を抑える,2025-01
 ```
 
 **cycle:** どのサイクルの超過かを記録
